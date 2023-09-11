@@ -1,0 +1,61 @@
+body {
+    font-size: 15px;
+    margin: 0;
+}
+
+.flex{
+  display: flex;
+}
+
+.card{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+  margin: 4rem auto;
+  text-align: center;
+  background: #fff;
+}
+
+h2{
+  margin: 15px 0 0 0;
+}
+
+img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+#utc{
+  font-size: 1.3rem;
+}
+
+@media (min-width:800px){
+  img{
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.track{
+  font-size: 1.5rem;
+  margin: 2px;
+}
+
+#today{
+  font-size: 1.5em;
+}
+a{
+  text-decoration: none;
+  color:chocolate;
+  font-weight: bold;
+  transition:all .3s ease-in-out;
+  padding: 8px;
+  border-radius: 4px;
+}
+a:hover{
+  background-color: chocolate;
+  color: white;
+  text-decoration: none;
+}
